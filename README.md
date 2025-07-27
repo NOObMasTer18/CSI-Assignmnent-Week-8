@@ -57,13 +57,13 @@ This repository contains two PySpark-based assignments:
 
 1. **NYC Taxi Analysis**
    - Upload the NYC taxi dataset to your Databricks workspace or DataLake.
-   - Open `NYC-Taxi Dataset Analysis.ipynb` in a Databricks or Jupyter environment with PySpark.
-   - Run cells sequentially to perform all queries.
+   - Run `NYC-Taxi Dataset Analysis.py` in a Spark-enabled Python environment.
+   - Execute the script sequentially to perform all queries.
 
 2. **JSON Flattening**
    - Upload your JSON dataset to DBFS.
-   - Open `JSON_Flattening_Pipeline.ipynb`.
-   - Run the notebook to load, flatten, and export your data as a Parquet table.
+   - Run `JSON_Flattening_Pipeline.py` in your Python environment.
+   - The script will load, flatten, and export your data as a Parquet table.
 
 ---
 
